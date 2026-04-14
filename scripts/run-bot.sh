@@ -15,5 +15,5 @@ fi
 # We got the lock, release it immediately (we don't need to hold it)
 flock -u 200
 
-cd /home/distiller/projects/tockstalk-bot
+cd ~/projects/tockstalk-bot
 xvfb-run -a --server-args="-screen 0 1920x1080x24" node src/bot.js
