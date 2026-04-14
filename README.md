@@ -46,6 +46,7 @@ tockstalk-bot/
 ```bash
 cd ~/projects/tockstalk-bot
 npm install
+npx playwright install
 ```
 
 ### 2. Configure Environment
